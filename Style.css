@@ -71,8 +71,7 @@
   font: bold;
 }
 #divisi{
- 
- background-color: #c6fac2 ;
+  background-color: #a8ffb4;
 }
 
 #profile{
@@ -398,7 +397,7 @@ textarea.input {
   transform: translateY(0);
 }
 
-.btn {
+.btnn {
   padding: 0.6rem 1.3rem;
   background-color: #fff;
   border: 2px solid #fafafa;
@@ -412,7 +411,7 @@ textarea.input {
   margin: 0;
 }
 
-.btn:hover {
+.btnn:hover {
   background-color: transparent;
   color: #fff;
 }
@@ -647,3 +646,35 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+
+
+footer{
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-bottom{
+  background-color: #198754;
+  width: auto;
+  padding: 10px;
+  
+  text-align: center;
+}
+span a{
+  color: #cac8c8;
+}
+@media (max-width:500px) {
+  .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  }
+  
